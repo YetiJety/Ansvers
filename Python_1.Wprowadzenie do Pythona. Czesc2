@@ -1,0 +1,47 @@
+# Zadanie 5
+print("Zhycie jest tym, co dzieje sie\n     gdy\n             jestes zajety robieniem innych planow")
+
+
+
+# zadanie 4
+print("""To be
+or not
+to by""")
+
+print("To be")
+print("or not")
+print("to be")
+
+print("To be\nor not\nto be")
+
+
+
+# Zadanie 3
+g = float(input('Przekatna 1: '))
+h = float(input('Przekatna 2: '))
+rombus_area = ((g + h) / 2)
+print(f'Pole rombu wynosi: {rombus_area:.3f}')
+
+
+
+
+# Zadanie 2
+d = float(input("Miesecznie wynagrodzenie (zl.gr): "))
+e = float(input("Kwota miesecznej raty kredytu (zl.gr): "))
+f = float(input("Oplata za uslugi komunalne (zl.gr): "))
+
+remainder = d - (e + f)
+
+print(remainder)
+
+
+# Zadanie 1
+a = int(input("Wprowadz liczbe: "))
+b = int(input("Wprowadz inna liczbe: "))
+c = int(input("Dodaj jescze jedna: "))
+
+sumae = a + b + c
+product = c * b * a
+
+print(f'Suma wprowadzonych liczb: {sumae}')
+print("Jednoczesnie" , str(product) + ", to jest iloczyn tych liczb")
